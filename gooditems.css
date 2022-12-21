@@ -1,0 +1,19 @@
+.goods-items{
+    font-family: sans-serif;
+    background-color: blueviolet;
+    padding: 50px;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.goods{
+    padding: 40px;
+    list-style-type: none ;
+    display: flex;
+}
+.goods-items:last-child{
+    margin-right: 0;
+}
+.goods-items:hover{
+    position: relative;
+    bottom: 5px;
+}
